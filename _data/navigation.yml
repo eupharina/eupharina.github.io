@@ -1,9 +1,9 @@
 # main links
 main:
     - title: "About Me"
-      url: https://eupharina.github.io/
+      url: /
     - title: "Publications"
-      url: https://eupharina.github.io/publications/
+      url: /publications/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
