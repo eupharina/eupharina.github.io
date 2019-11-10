@@ -1,0 +1,18 @@
+{% assign aboutme = site.data.data.aboutme %}
+{% assign topics = site.data.data.topics %}
+<section class="section about-section">
+
+{% if aboutme %}
+  <div class="aboutme">
+    {{ aboutme | markdownify }}
+  </div><!--//details-->
+{% endif %}
+
+{% if aboutme %}
+  <div class="topics">
+    {{ topics | markdownify }}
+  </div><!--//details-->
+{% endif %}
+
+It's aboutme section
+</section><!--//section-->

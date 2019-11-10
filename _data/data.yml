@@ -1,0 +1,26 @@
+aboutme: "Hi, I'm Irina Dudina. I am researh assistant at ISP RAS and teaching assistant at Moscow State University."
+topics: "I'm interested in static program analysis, symbolic execution, SMT solvers."
+
+languages:
+    - idiom: Russian
+      level: Native
+
+    - idiom: English
+      level: Professional
+
+education:
+        - degree: Ph.D. in Computer Science
+          university: Ivannikov Institute for System Programming of the RAS
+          time: 2019
+
+        - degree: Postgraduate studies
+          university: Mocsow State Univesrity
+          department: Department of Computational Mathematics and Cybernetics 
+          time: 2014 - 2018
+          details: |
+           
+        - degree: Specialist in Applied Mathematics and Computer Science
+          university: Mocsow State Univesrity
+          department: Department of Computational Mathematics and Cybernetics 
+          time: 2009 - 2014
+          details: |
