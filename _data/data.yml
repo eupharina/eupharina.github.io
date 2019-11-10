@@ -1,5 +1,10 @@
 aboutme: "Hi, I'm Irina Dudina. I am researh assistant at ISP RAS and teaching assistant at Moscow State University."
-topics: "I'm interested in static program analysis, symbolic execution, SMT solvers."
+topics: |
+    My research interests lie in the fields of
+
+    - static program analysis,
+    - symbolic execution,
+    - SMT solvers.
 
 languages:
     - idiom: Russian
