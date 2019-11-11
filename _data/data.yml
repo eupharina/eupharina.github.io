@@ -1,4 +1,7 @@
-aboutme: "Hi, I'm Irina Dudina. I am researh assistant at ISP RAS and teaching assistant at Moscow State University."
+aboutme:
+    en: "Hi, I'm Irina Dudina. I am researh assistant at ISP RAS and teaching assistant at Moscow State University."
+    ru: "Меня зовут Ирина Дудина. В настоящий момент я работаю м. н. с. в ИСП РАН и являюсь ассистетом кафедры системного программирования в МГУ."
+
 topics: |
     My research interests lie in the fields of
 

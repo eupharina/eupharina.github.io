@@ -4,6 +4,9 @@
   {% capture logo_path %}{{ site.logo }}{% endcapture %}
 {% endif %}
 
+{% assign lang = page.lang %}
+{% assign ref = page.ref %}
+
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
@@ -16,7 +19,7 @@
           {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
         </a>
         <ul class="visible-links">
-          {%- for link in site.data.navigation.main -%}
+          {%- for link in site.data.navigation.main[lang] -%}
             {%- if link.url contains '://' -%}
               {%- assign url = link.url -%}
             {%- else -%}
@@ -26,6 +29,20 @@
               <a href="{{ url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
             </li>
           {%- endfor -%}
+
+          {% assign pgs=site.pages | where:"ref", ref | sort: 'lang' %}
+          {% for pg in pgs %}
+            <li class="lang">
+              <a href="{{ pg.url }}" class="{{ pg.lang }}">{{ pg.lang }}</a>
+            </li>
+          {% endfor %}
+
+          {% assign pgs=site.posts | where:"ref", ref | sort: 'lang' %}
+          {% for pg in pgs %}
+            <li class="lang">
+              <a href="{{ pg.url }}" class="{{ pg.lang }}">{{ pg.lang }}</a>
+            </li>
+          {% endfor %}
         </ul>
         {% if site.search == true %}
         <button class="search__toggle" type="button">

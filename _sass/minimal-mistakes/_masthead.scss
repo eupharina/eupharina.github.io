@@ -91,3 +91,12 @@
     font-weight: 700;
   }
 }
+
+ul >.lang {
+  margin-left: 70px;
+}
+
+ul >.lang ~ .lang{
+  margin-left: 0px;
+}
+

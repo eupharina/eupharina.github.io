@@ -252,6 +252,10 @@
     }
   }
 
+  a:hover, .en:lang(en), .ru:lang(ru) {
+      font-weight: bold;
+  }
+
   .hidden-links {
     position: absolute;
     top: 100%;

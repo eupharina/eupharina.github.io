@@ -1,5 +1,6 @@
 # main links
 main:
+  en:
     - title: "About Me"
       url: /
     - title: "Publications"
@@ -10,3 +11,8 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+  ru:
+    - title: "Обо мне"
+      url: /ru/
+    - title: "Публикации"
+      url: /ru/publications/

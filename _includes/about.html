@@ -1,14 +1,16 @@
+{% assign lang = page.lang %}
+
 {% assign aboutme = site.data.data.aboutme %}
-{% assign topics = site.data.data.topics %}
 <section class="section about-section">
 
 {% if aboutme %}
   <div class="aboutme">
-    {{ aboutme | markdownify }}
+    {{ aboutme[lang] | markdownify }}
   </div><!--//details-->
 {% endif %}
 
-{% if aboutme %}
+{% assign topics = site.data.data.topics %}
+{% if topics %}
   <div class="topics">
     {{ topics | markdownify }}
   </div><!--//details-->
