@@ -6,6 +6,4 @@ ref: home
 permalink: /ru/
 ---
 
-{% include about.html %}
-
-{% include education.html %}
+TBD.
