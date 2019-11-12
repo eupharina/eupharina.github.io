@@ -1,13 +1,20 @@
-aboutme:
-    en: "Hi, I'm Irina Dudina. I am researh assistant at ISP RAS and teaching assistant at Moscow State University."
-    ru: "Меня зовут Ирина Дудина. В настоящий момент я работаю м. н. с. в ИСП РАН и являюсь ассистетом кафедры системного программирования в МГУ."
+topName:
+    en: Research topics
+    ru: Темы исследований
 
-topics: |
-    My research interests lie in the fields of
+topIntro:
+    en: My research interests lie in the fields of
+    ru: 
 
-    - static program analysis,
-    - symbolic execution,
-    - SMT solvers.
+topics:
+    en:
+        - static program analysis,
+        - symbolic execution,
+        - SMT solvers.
+    ru:
+        - статический анализ,
+        - символьное исполнение,
+        - SMT решатели.
 
 languages:
     - idiom: Russian
@@ -16,7 +23,12 @@ languages:
     - idiom: English
       level: Professional
 
+educationName:
+    en: Education
+    ru: Образование
+
 education:
+    en:
         - degree: Ph.D. in Computer Science
           university: Ivannikov Institute for System Programming of the RAS
           time: 2019
@@ -32,3 +44,52 @@ education:
           department: Department of Computational Mathematics and Cybernetics 
           time: 2009 - 2014
           details: |
+
+    ru:
+        - degree: Диссертация на соискание учёной степени кандидата физико-математических наук
+          university: Институт системного программирования им. В.П. Иванникова РАН
+          time: 2019
+
+        - degree: Аспирантура
+          university: Московский государственный университет имени М.В.Ломоносова
+          department: Факультет вычислительной математики и кибернетики
+          time: 2014 - 2018
+          details: |
+           
+        - degree: Специалист (прикладная математика и информатика)
+          university: Московский государственный университет имени М.В.Ломоносова
+          department: Факультет вычислительной математики и кибернетики
+          time: 2009 - 2014
+          details: |
+
+occupationName:
+    en: Occupation
+    ru: Места работы
+
+occupation:
+    en:
+        - position: Research Assistant
+          organization: Ivannikov Institute for System Programming of the RAS
+          department: Compiler Technology Department 
+          time: 2011 - present
+          details: |
+
+        - position: Graduate Teacher Assistant
+          organization: Mocsow State Univesrity
+          department: Department of Computational Mathematics and Cybernetics 
+          time: 2018 - present
+          details: |
+                
+    ru:
+        - position: Младший научный сотрудник
+          organization: Институт системного программирования им. В.П. Иванникова РАН
+          department: Отдел компиляторных технологий
+          time: 2011 - настоящее время
+          details: |
+
+        - position: Ассистент
+          organization: Московский государственный университет имени М.В.Ломоносова
+          department: Факультет вычислительной математики и кибернетики
+          time: 2018 - настоящее время
+          details: |
+                

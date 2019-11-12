@@ -1,0 +1,26 @@
+{% assign topics = site.data.data.topics[page.lang] %}
+{% assign topIntro = site.data.data.topIntro[page.lang] %}
+{% assign topName = site.data.data.topName[page.lang] %}
+{% if topics %}
+  <section class="section educations-section">
+
+    <h2 class="section-title">
+      <span class="fa-stack fa-xs">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-atom fa-stack-1x fa-inverse"></i>
+      </span>
+      {{ topName }}
+    </h2>
+    
+    <h3> {{topIntro}} </h3>
+
+    {% for topic in topics %}
+    <ul>
+      <li>
+        {{topic}}
+      </li>
+    </ul>
+    {% endfor %}
+
+  </section>
+{% endif %}
