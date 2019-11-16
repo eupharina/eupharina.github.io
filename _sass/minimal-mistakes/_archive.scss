@@ -24,6 +24,8 @@
   a {
     position: relative;
     z-index: 10;
+    color: darken($primary-color, 15%);
+    text-decoration: none;
   }
 
   a[rel="permalink"] {
@@ -444,4 +446,35 @@
       padding-right: 0;
     }
   }
+}
+
+/*
+   Publications List
+   ========================================================================== */
+.pub__title {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 5px;
+//    font-weight: bold;
+    
+}
+
+.pub__year {
+    font-size: 16px;
+}
+
+.pub__authors {
+    font-size: 18px;
+    color: darken($text-grey, 50%); 
+}
+
+.pub__journal {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.pub__keywords {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: $text-grey;
 }
