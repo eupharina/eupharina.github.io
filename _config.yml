@@ -15,7 +15,9 @@ minimal_mistakes_skin    : "contrast" #"default", "air", "aqua", "contrast", "da
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Irina Dudina"
+title:
+  en: "Irina Dudina"
+  ru: "Ирина Дудина"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Irina Dudina"
@@ -106,11 +108,21 @@ analytics:
 
 # Site Author
 author:
-  name             : "Irina Dudina"
-  avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "Software Engineer, Research Assistant and Assistant Lecturer. Ph.D in Computer Science (2019)"
-  location         : "Moscow, Russia"
-  email            :
+  name: 
+    en: "Irina Dudina"
+    ru: "Ирина Дудина"
+
+  avatar: "/assets/images/bio-photo.jpg"
+
+  bio:
+    en: "Software Engineer, Research Assistant and Assistant Lecturer. Ph.D in Computer Science (2019)"
+    ru: "Разработчик, исследователь в области статического анализа программ, преподаватель. К. ф.-м. н. (2019)."
+
+  location:
+    en: "Moscow, Russia"
+    ru: "Москва"
+
+  email:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
