@@ -43,6 +43,14 @@
               <a href="{{ pg.url }}" class="{{ pg.lang }}">{{ pg.lang }}</a>
             </li>
           {% endfor %}
+
+
+          {% assign pgs=site.posts | where:"ref", ref | sort: 'lang' %}
+          {% for pg in pgs %}
+            <li class=="lang" >
+              <a href="{{ pg.url }}" class="{{ pg.lang }}">{{ pg.lang }}</a>
+            </li>
+          {% endfor %}
         </ul>
         {% if site.search == true %}
         <button class="search__toggle" type="button">

@@ -49,6 +49,7 @@ en: &DEFAULT_EN
   search_placeholder_text    : "Enter your search term..."
   results_found              : "Result(s) found"
   back_to_top                : "Back to top"
+  recent_publications        : "Recent publications"
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -677,6 +678,7 @@ ru: &DEFAULT_RU
   search_label_text          :
   search_placeholder_text    : "Введите поисковый запрос..."
   results_found              : "Найдено"
+  recent_publications        : "Недавние публикации"
 ru-RU:
   <<: *DEFAULT_RU
 
