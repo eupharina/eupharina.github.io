@@ -8,6 +8,7 @@ pub_authors: " Andrey Belevantsev, Alexey Borodin, Irina Dudina, Valery Ignatiev
 pub_journal: " Ivannikov Memorial Workshop, IEEE Computer Society Conference Publishing Services Yerevan, Armeniya, pp 3-9 "
 pub_year: 2018
 pub_keywords:
+pub_doi: 
 
 ---
 

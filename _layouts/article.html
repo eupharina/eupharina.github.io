@@ -2,8 +2,24 @@
 layout: single
 author_profile:
 ---
+
+<h3> Abstract </h3>
+<p>
+    {{ content }}
+</p>
+
 {% if page.pub_authors %}
-  AUTHORS: {{ page.pub_authors }}
+  <div class="pub__authors">
+      <i class="fas fa-users" aria-hidden="true"></i> 
+      <b>Authors:</b> {{ page.pub_authors }}
+  </div>
 {% endif %}
 
-{{ content }}
+{% if page.pub_doi %}
+  <div class="pub__doi">
+      <i class="fas fa-link" aria-hidden="true"></i> 
+      <b>DOI:</b>
+      <a href="{{ page.pub_doi }}">{{ page.pub_doi }}</a></h2>
+  </div>
+{% endif %}
+

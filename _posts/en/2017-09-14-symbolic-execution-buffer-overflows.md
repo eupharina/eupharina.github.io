@@ -8,6 +8,7 @@ pub_authors: "Dudina, I. A. and Belevantsev, A. A."
 pub_journal: "Programming and Computer Software, Volume 43, Issue 5, pp 277–288"
 pub_year: 2017
 pub_keywords: "Buffer overflow, static symbolic execution"
+pub_doi: "https://doi.org/10.1134/S0361768817050024"
 
 ---
 
