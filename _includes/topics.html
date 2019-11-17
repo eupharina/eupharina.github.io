@@ -12,15 +12,11 @@
       {{ topName }}
     </h2>
     
-    <h3> {{topIntro}} </h3>
-
-    {% for topic in topics %}
     <ul>
-      <li>
-        {{topic}}
-      </li>
-    </ul>
+    {% for topic in topics %}
+      <li> {{topic}}</li>
     {% endfor %}
+    </ul>
 
   </section>
 {% endif %}
