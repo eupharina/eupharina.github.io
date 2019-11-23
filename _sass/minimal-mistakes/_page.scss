@@ -35,6 +35,11 @@ body {
   flex: 1 0 auto;
 }
 
+.greeting {
+  padding-top: 80px;
+  margin-left: 20px;
+}
+
 .page {
   @include breakpoint($large) {
     float: right;
