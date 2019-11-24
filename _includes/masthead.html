@@ -14,10 +14,11 @@
         {% unless logo_path == empty %}
           <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path | relative_url }}" alt=""></a>
         {% endunless %}
-        <a class="site.title[page.lang]" href="{{ '/' | relative_url }}">
+<!--        <a class="site.title[page.lang]" href="{{ '/' | relative_url }}">
           {{ site.masthead_title | default: site.title[page.lang] }}
           {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
         </a>
+-->
         <ul class="visible-links">
           {%- for link in site.data.navigation.main[lang] -%}
             {%- if link.url contains '://' -%}

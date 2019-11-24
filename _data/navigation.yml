@@ -1,6 +1,8 @@
 # main links
 main:
   en:
+    - title: "Irina Dudina"
+      url: /
     - title: "About Me"
       url: /about/
     - title: "Publications"
@@ -12,6 +14,8 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
   ru:
+    - title: "Ирина Дудина"
+      url: /ru/
     - title: "Обо мне"
       url: /ru/about/
     - title: "Публикации"
