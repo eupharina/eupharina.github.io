@@ -8,4 +8,4 @@ permalink: /
 
 >Hi, I'm Irina Dudina, a software engineer and researcher.
 >Currently, I'm working on a static analysis project at ISP RAS.
->Also, I'm a graduate teaching assistant at Moscow State University.
+>Also, I'm an assistant professor at Lomonosov Moscow State University.

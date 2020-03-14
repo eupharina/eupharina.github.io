@@ -115,7 +115,7 @@ author:
   avatar: "/assets/images/bio-photo.jpg"
 
   bio:
-    en: "Software engineer, research assistant, and graduate teaching assistant. Ph.D in Computer Science (2019)"
+    en: "Software engineer, research assistant, and assistant professor. Ph.D in Computer Science (2019)"
     ru: "Разработчик, исследователь в области статического анализа программ, преподаватель. К. ф.-м. н. (2019)."
 
   location:
@@ -139,9 +139,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/eupharina"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/irina-dudina-8a32581a4"
 
 # Site Footer
 footer:
