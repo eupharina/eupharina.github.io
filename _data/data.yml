@@ -34,13 +34,13 @@ education:
           time: 2019
 
         - degree: Postgraduate studies
-          university: Mocsow State Univesrity
+          university: Moscow State University
           department: Department of Computational Mathematics and Cybernetics 
           time: 2014 - 2018
           details: |
            
         - degree: Specialist in Applied Mathematics and Computer Science
-          university: Mocsow State Univesrity
+          university: Moscow State University
           department: Department of Computational Mathematics and Cybernetics 
           time: 2009 - 2014
           details: |
@@ -75,7 +75,7 @@ occupation:
           details: |
 
         - position: Assistant Professor
-          organization: Mocsow State Univesrity
+          organization: Moscow State University
           department: Department of Computational Mathematics and Cybernetics 
           time: 2018 - present
           details: |
